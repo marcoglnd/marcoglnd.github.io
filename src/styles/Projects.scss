@@ -1,0 +1,46 @@
+#projects {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#inner-projects {
+  width: 40%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.project {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#github-search {
+  background-color: #F75186;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  p {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  h3 {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+}

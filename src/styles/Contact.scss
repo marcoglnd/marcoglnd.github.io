@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 30px;
+
+  input, textarea {
+    font-family: Montserrat,sans-serif;
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  button {
+    background: none;
+    border: solid 2px #666;
+    color: #666;
+    cursor: pointer;
+    display: block;
+    font-size: 0.875em;
+    font-weight: bold;
+    margin-top: 30px;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    width: 200px;
+  }
+}

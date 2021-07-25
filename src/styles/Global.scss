@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #fafafa;
+}
+
+.nav {
+  background-color: black;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  position: sticky;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: #F75186;
+    }
+  }
+}
