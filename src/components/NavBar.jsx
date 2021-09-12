@@ -9,7 +9,6 @@ export default class NavBar extends Component {
           <div id="nav-links">
             <Link to="/">HOME</Link>
             <Link to="/projects">PROJETOS</Link>
-            <Link to="/skills">HABILIDADES</Link>
             <Link to="/contact">CONTATO</Link>
           </div>
         </nav>

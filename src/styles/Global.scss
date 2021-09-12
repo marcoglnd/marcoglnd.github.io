@@ -1,10 +1,16 @@
 * {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   background: #fafafa;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav {
@@ -16,12 +22,27 @@ body {
   position: sticky;
 
   a {
-    text-decoration: none;
     color: white;
 
     &:hover {
       text-decoration: underline;
       text-decoration-color: #F75186;
     }
+  }
+}
+
+svg {
+  font-size: 3rem;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #nav-links {
+    justify-content: space-evenly;
+    width: 100%;
   }
 }

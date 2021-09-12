@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { send } from 'emailjs-com';
 import NavBar from '../components/NavBar';
 import '../styles/Contact.scss';
+import { AiFillLinkedin } from 'react-icons/ai'
+import { FaGithubSquare } from 'react-icons/fa';
 
 function Contact() {
   const [toSend, setToSend] = useState({
@@ -34,6 +36,16 @@ function Contact() {
   return (
     <main>
       <NavBar />
+      <section className="contato">
+      <h2>contato</h2>
+      <div>
+        <a className="contact-links" href="https://www.linkedin.com/in/marcoglnd/">
+          <AiFillLinkedin />
+        </a>
+        <a className="contact-links" href="https://github.com/marcoglnd">
+          <FaGithubSquare />
+        </a>
+      </div>
       <form onSubmit={onSubmit} className="form">
         <input
           type='text'
@@ -65,6 +77,7 @@ function Contact() {
         />
         <button type='submit'>Submit</button>
       </form>
+      </section>
     </main>
   );
 }

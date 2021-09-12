@@ -1,10 +1,17 @@
+.contato {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
-  width: 50%;
   margin: 0 auto;
   margin-top: 30px;
   padding: 30px;
+  width: 50%;
 
   input, textarea {
     font-family: Montserrat,sans-serif;
@@ -37,5 +44,25 @@
     padding: 20px 35px;
     text-transform: uppercase;
     width: 200px;
+
+    &:hover {
+      background: #666;
+      color: #fff;
+    }
+  }
+}
+
+.contact-links {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .contato {
+    padding: 20px;
+  }
+
+  .form {
+    padding: 10px;
+    width: 90%;
   }
 }

@@ -1,11 +1,17 @@
 #projects {
-  padding: 40px;
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px;
+  width: 50%;
 }
 
 #inner-projects {
-  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 h2 {
@@ -19,16 +25,11 @@ h2 {
   border-radius: 10px;
   margin-bottom: 20px;
   text-decoration: none;
-  display: inline-block;
-}
-
-#github-search {
-  background-color: #585858;
+  display: flex;
+  align-items: center;
   opacity: 0.8;
-
-  &:hover {
-    opacity: 1;
-  }
+  background: rgb(100, 100, 100);
+  gap: 10px;
 
   p {
     color: white;
@@ -42,5 +43,38 @@ h2 {
     font-size: 20px;
     margin-bottom: 10px;
     display: inline-block;
+  }
+
+  h4 {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+
+  img {
+    border-radius: 50%;
+    max-height: 100px;
+    max-width: 100px;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #projects {
+    padding: 20px;
+    width: 100%;
+  }
+
+  #inner-projects {
+    justify-content: flex-start;
+  }
+
+  .project {
+    padding: 10px;
   }
 }

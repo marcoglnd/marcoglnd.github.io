@@ -21,6 +21,22 @@ export default class Home extends Component {
               Formado em Jornalismo pela Universidade Federal da Paraíba, atualmente sou estudante do curso de Desenvolvimento Web da Trybe.</p>
             </div>
           </div>
+          <section id="skills">
+            <div id="inner-skills">
+              <h2>habilidades</h2>
+              <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Redux</li>
+                <li>Sass</li>
+                <li>Git</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </section>
         </main>
       </div>
     )
