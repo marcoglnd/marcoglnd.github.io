@@ -39,10 +39,10 @@ function Contact() {
       <section className="contato">
       <h2>contato</h2>
       <div>
-        <a className="contact-links" href="https://www.linkedin.com/in/marcoglnd/">
+        <a className="contact-links" href="https://www.linkedin.com/in/marcoglnd/" target="_blank" rel="noreferrer">
           <AiFillLinkedin />
         </a>
-        <a className="contact-links" href="https://github.com/marcoglnd">
+        <a className="contact-links" href="https://github.com/marcoglnd" target="_blank" rel="noreferrer">
           <FaGithubSquare />
         </a>
       </div>

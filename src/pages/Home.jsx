@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import heroPhoto from '../assets/images/hero-photo.jpeg';
+import heroPhoto from '../assets/images/hero-photo.JPG';
 import NavBar from '../components/NavBar';
 import '../styles/Home.scss';
 
