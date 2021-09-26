@@ -4,7 +4,7 @@
   flex-direction: column;
   margin: 0 auto;
   padding: 40px;
-  width: 50%;
+  width: 60%;
 }
 
 #inner-projects {
@@ -19,17 +19,17 @@ h2 {
   font-size: 30px;
 }
 
-.project {
-  width: 100%;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  text-decoration: none;
-  display: flex;
+.project-card {
   align-items: center;
-  opacity: 0.8;
-  background: rgb(100, 100, 100);
+  background: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-decoration: none;
+  width: 40%;
 
   p {
     color: white;
@@ -59,9 +59,17 @@ h2 {
     max-width: 100px;
   }
 
-  &:hover {
-    opacity: 1;
+  svg {
+    color: white;
+
+    &:hover {
+      color: #7745b3;
+    }
   }
+}
+
+.project-links {
+  margin-top: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -71,10 +79,15 @@ h2 {
   }
 
   #inner-projects {
+    flex-direction: column;
     justify-content: flex-start;
   }
 
   .project {
     padding: 10px;
+  }
+
+  .project-card {
+    width: 100%;
   }
 }

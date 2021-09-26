@@ -2,6 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   padding: 40px;
 }
 
@@ -13,28 +14,30 @@
   padding: 30px;
   width: 50%;
 
-  input, textarea {
-    font-family: Montserrat,sans-serif;
+  input,
+  textarea {
+    font-family: "Montserrat", sans-serif;
     width: 100%;
     padding: 10px 0;
     background: none;
     border: none;
-    border-bottom: 1px solid #666;
-    color: #666;
+    border-bottom: 1px solid black;
+    color: black;
     font-size: 14px;
     text-transform: uppercase;
     outline: none;
-    transition: border-color .2s;
+    transition: border-color 0.2s;
   }
 
   textarea {
     height: 150px;
+    resize: none;
   }
 
   button {
     background: none;
-    border: solid 2px #666;
-    color: #666;
+    border: solid 2px black;
+    color: black;
     cursor: pointer;
     display: block;
     font-size: 0.875em;
@@ -46,7 +49,8 @@
     width: 200px;
 
     &:hover {
-      background: #666;
+      background: #7745b3;
+      border: 1px solid #7745b3;
       color: #fff;
     }
   }

@@ -14,7 +14,7 @@
 }
 
 .skills-div {
-  align-items: center;
+  align-items: flex-start;
   color: white;
   display: flex;
   flex-direction: column;
@@ -38,5 +38,12 @@
 
   &:hover {
     color: #7745b3;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inner-skills {
+    flex-direction: column;
+    gap: 20px;
   }
 }

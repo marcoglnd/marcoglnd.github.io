@@ -13,24 +13,6 @@ a {
   text-decoration: none;
 }
 
-.nav {
-  background-color: black;
-  padding: 20px;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  position: sticky;
-
-  a {
-    color: white;
-
-    &:hover {
-      text-decoration: underline;
-      text-decoration-color: #7745b3;
-    }
-  }
-}
-
 svg {
   font-size: 3rem;
 }

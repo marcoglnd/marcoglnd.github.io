@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import heroPhoto from "../assets/images/hero-photo.JPG";
-import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Skills from "../components/Skills";
 import "../styles/Home.scss";
 
@@ -8,7 +9,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <Header />
 
         <main className="hero">
           <div id="hero-head">
@@ -35,6 +36,7 @@ export default class Home extends Component {
           </div>
           <Skills />
         </main>
+        <Footer />
       </div>
     );
   }
