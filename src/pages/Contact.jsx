@@ -2,8 +2,6 @@ import { useState } from "react";
 import { send } from "emailjs-com";
 import Header from "../components/Header";
 import "../styles/Contact.scss";
-import { AiFillLinkedin } from "react-icons/ai";
-import { FaGithubSquare } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 function Contact() {
@@ -38,24 +36,6 @@ function Contact() {
       <Header />
       <section className="contato">
         <h2>contato</h2>
-        <div>
-          <a
-            className="contact-links"
-            href="https://www.linkedin.com/in/marcoglnd/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <AiFillLinkedin />
-          </a>
-          <a
-            className="contact-links"
-            href="https://github.com/marcoglnd"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithubSquare />
-          </a>
-        </div>
         <form onSubmit={onSubmit} className="form">
           <input
             type="text"
@@ -85,7 +65,7 @@ function Contact() {
             value={toSend.message}
             onChange={handleChange}
           />
-          <button type="submit">Submit</button>
+          <button type="submit">Enviar</button>
         </form>
         <Footer />
       </section>
