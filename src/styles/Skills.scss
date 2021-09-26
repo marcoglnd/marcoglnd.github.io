@@ -1,9 +1,42 @@
 #skills {
-  padding: 40px;
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
 
-  div {
-    width: 40%;
+.inner-skills {
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  gap: 100px;
+  padding: 40px;
+}
+
+.skills-div {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.skills-list {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style: none;
+}
+
+.skills-card {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+
+  &:hover {
+    color: #7745b3;
   }
 }

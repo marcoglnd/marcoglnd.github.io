@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #fafafa;
 }
 
@@ -26,18 +26,13 @@ a {
 
     &:hover {
       text-decoration: underline;
-      text-decoration-color: #F75186;
+      text-decoration-color: #7745b3;
     }
   }
 }
 
 svg {
   font-size: 3rem;
-  opacity: 0.8;
-
-  &:hover {
-    opacity: 1;
-  }
 }
 
 @media screen and (max-width: 768px) {
