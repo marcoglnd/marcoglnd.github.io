@@ -67,8 +67,8 @@ function Contact() {
           />
           <button type="submit">Enviar</button>
         </form>
-        <Footer />
       </section>
+      <Footer />
     </section>
   );
 }
